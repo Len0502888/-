@@ -1,0 +1,200 @@
+*{
+    padding: %;
+    margin: 0;
+    font-family: serif;
+    
+}
+
+
+h2{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    font-size: 37px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+h1 a img{
+    width: 100%;
+    max-width: 180px;
+}
+
+header img{
+    max-width: 65px;
+}
+
+header .枠{
+   background-color:white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    width: 95%;
+    margin:0 auto;
+    max-width: 100%;
+    padding: 5px;
+    color:black;
+    
+}
+
+    
+
+header .枠  nav li{
+    display: inline-block;
+    margin-left: 25px;
+   padding-top: 6px;
+    
+}
+
+img{
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+}
+
+.概要 .枠{
+    width: 80%;
+    margin:0 auto;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+main .年間行事 table{
+    background-color:white;
+    margin: auto;
+    font-size: 20px;
+}
+
+main .年間行事 table td{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+main .情報 table {
+    background-color: white;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+main .情報 table td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+
+.情報 img{
+    width: 100%;
+    max-width: 130px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.情報 li{
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+}
+
+.情報 li a{
+    color: black;
+}
+
+footer p{
+    background-color: rgb(97, 97, 97);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+
+}
+
+h6{
+    text-align: center;
+    padding-top: 5px;
+     background-color: rgb(97, 97, 97);
+     color: white;
+     font-size: 15px;
+     font-weight: 300;
+}
+
+
+.枠1{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+.枠2{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.枠3{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.枠4{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.枠5{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.枠6{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.枠7{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+
+h4{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    margin: auto;
+}
+
+h5{
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin: auto;
+}
