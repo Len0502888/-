@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:serif;
+
+}
+
+
+h2{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    font-size: 37px;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 a img{
+    width: 100%;
+    max-width: 270px;
+    padding: 5px;
+}
+
+
+header img{
+    max-width: 75px;
+}
+
+header .枠{
+   background-color:white;
+   width: 95%;
+   margin:0 auto;
+   max-width: 100%;
+   color:black;
+   padding: 4px;
+}   
+
+header .枠  nav li{
+   padding-top: 6px;
+   margin: 0;
+   display: inline;
+}
+
+header .枠 nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+}
+
+.スライドショー{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    max-width: 1700px;
+    display: block;
+    margin: auto;
+}
+
+.スライド{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: fade  30s infinite;
+}
+
+.スライド:nth-child(1){
+    animation-delay:  0s;
+}
+
+.スライド:nth-child(2){
+    animation-delay: 5s;
+}
+
+.スライド:nth-child(3){
+    animation-delay: 10s;
+}
+
+.スライド:nth-child(4){
+    animation-delay: 15s;
+}
+
+.スライド:nth-child(5){
+    animation-delay: 20s;
+}
+
+.スライド:nth-child(6){
+    animation-delay: 25s;
+}
+
+
+@keyframes fade{
+    0%{opacity: 0;}
+    20%{opacity: 1;}
+    40%{opacity: 1;}
+    60%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+
+main img{
+    width: 100%;
+    max-width: 1500px;
+    display: block;
+    margin: auto;
+}
+
+.概要 .枠{
+    width: 80%;
+    margin:0 auto;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+main .年間行事 table{
+    background-color:white;
+    margin: auto;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+main .年間行事 table td{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+main .情報 table {
+    background-color: white;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255,0.5);
+    }
+
+main .情報 table td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+
+
+.情報 img{
+    width: 100%;
+    max-width: 135px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+
+.情報 li{
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+}
+
+.情報 li a{
+    color: black;
+}
+
+footer p{
+    background-color: rgb(97, 97, 97);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+}
+
+h6{
+    text-align: center;
+     background-color: rgb(97, 97, 97);
+     color: white;
+     font-size: 15px;
+     font-weight: 300;
+
+}
+
+.情報テキスト{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+    font-size: 37px;
+    font-weight: 640;
+    padding-top: 50px;
+}
+
+
+.枠1{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.枠2{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.枠3{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.枠4{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.枠5{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.枠6{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.枠7{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+
+h4{
+    color: rgb(148, 148, 148);
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: auto;
+}
+
+h5{
+    text-align: center;
+    color:rgb(150, 150, 150);
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+main .情報{
+    background-image: url(images/背景6.jpg);
+}
+
+main {
+    background-image: url(images/背景6.jpg);
+}
+
+header .枠{
+    background-image: url(images/背景6.jpg)
+}
+header{
+    background-image: url(images/背景6.jpg);
+}
