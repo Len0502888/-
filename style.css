@@ -284,8 +284,15 @@ header .枠{
 }
 header{
     background-image: url(images/背景6.jpg);
-
 }
+
+.情報 p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
 
 
 
