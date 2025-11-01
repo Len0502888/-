@@ -35,7 +35,7 @@ header .枠{
    background-color:white;
    width: 95%;
    margin:0 auto;
-   max-width: 100%;
+   max-width: 60%;
    color:black;
    padding: 4px;
 }   
@@ -286,6 +286,7 @@ header{
     background-image: url(images/背景6.jpg);
 
 }
+
 
 
 
