@@ -57,7 +57,7 @@ header .枠 nav{
     height: 80vh;
     position: relative;
     overflow: hidden;
-    max-width: 1700px;
+    max-width: 1000px;
     display: block;
     margin: auto;
 }
@@ -283,4 +283,5 @@ header .枠{
 }
 header{
     background-image: url(images/背景6.jpg);
+
 }
