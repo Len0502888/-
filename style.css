@@ -129,8 +129,8 @@ main .年間行事 table{
 }
 
 main .年間行事 table td{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 10px;
     padding-top: 10px;
 
@@ -285,6 +285,7 @@ header{
     background-image: url(images/背景6.jpg);
 
 }
+
 
 
 
